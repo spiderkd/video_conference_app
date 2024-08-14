@@ -1,6 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "ZOOM CLONE",
+  description: "ZOOM clone With the getStream",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 const HomeLayout = ({
   children,
 }: Readonly<{
